@@ -11,3 +11,34 @@ body{
     
     background-color: aquamarine;
 }
+
+/* COMMON */
+
+.flex-container{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER */
+
+.main-background{
+    background-color: black;
+    height: 80px;
+}
+
+.button-align{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button{
+    background-color: #4a4a4a;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
