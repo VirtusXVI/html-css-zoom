@@ -6,10 +6,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-
-    /* TEST */
-    
-    background-color: aquamarine;
+    background-color: black;
 }
 
 /* COMMON */
@@ -25,8 +22,7 @@ a{
 
 /* HEADER */
 
-.main-background{
-    background-color: black;
+.header-background{
     height: 80px;
 }
 
@@ -41,4 +37,44 @@ a{
     margin-top: 5px;
     padding: 5px 5px;
     border-radius: 5px;
+}
+
+/* MAIN */
+
+main{
+    color: white;
+}
+
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cols{
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card{
+    width: 14%;
+    height: 17%;
+    background-image: url(https://picsum.photos/246/146);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-name{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 14px;
+}
+
+footer{
+    height: 80px;
+    background-color: #222222;
 }
