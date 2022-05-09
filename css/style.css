@@ -96,21 +96,21 @@ footer li i{
 }
 
 .start{
-    width: 11%;
+    width: 11vw;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
 .center{
-    width: 83%;
+    width: 83vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .end{
-    width: 6%;
+    width: 6vw;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -128,7 +128,7 @@ footer li i{
 .end-button{
     background-color: #4a4a4a;
     height: 80px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
